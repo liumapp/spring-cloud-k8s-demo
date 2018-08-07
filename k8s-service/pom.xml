@@ -8,8 +8,8 @@
 		<version>1.5.6.RELEASE</version>
 	</parent>
 
-	<groupId>com.liumapp.demo.k8s</groupId>
-	<artifactId>spring-cloud-k8s-demo</artifactId>
+	<groupId>com.liumapp.demo.k8s.service</groupId>
+	<artifactId>k8s-service</artifactId>
 	<version>v1.0.0</version>
 	<packaging>pom</packaging>
 
@@ -41,8 +41,7 @@
 		</dependencies>
 	</dependencyManagement>
   <modules>
-    <module>k8s-eureka</module>
-    <module>k8s-config</module>
-    <module>k8s-service</module>
+    <module>demo-api-a</module>
+    <module>demo-api-b</module>
   </modules>
 </project>
