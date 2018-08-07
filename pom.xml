@@ -40,4 +40,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+  <modules>
+    <module>k8s-eureka</module>
+  </modules>
 </project>
